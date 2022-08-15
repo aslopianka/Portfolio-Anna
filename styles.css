@@ -1,6 +1,53 @@
 h1 {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    color: #767F6E;
-    opacity: 0.6;
+    color: rgba(118, 127, 110, 0.6);
+    font-size: 70px;
+
+}
+
+
+.header {
+
+    position: relative;
+}
+
+.headline {
+    margin-left: 100px;
+}
+
+.overlap-box {
+
+    background-color: #767F6E;
+    opacity: 0.3;
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    z-index: -1;
+    right: 0;
+
+}
+
+.green-box {
+    justify-content: flex-end;
+    background-color: #767F6E;
+    opacity: 0.3;
+
+}
+
+.about-paragraph {
+
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    width: 700px;
+    padding-right: 200px;
+}
+
+.spacing {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-top: 100px;
+    padding-bottom: 100px;
+
 }
