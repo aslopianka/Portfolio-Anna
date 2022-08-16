@@ -1,6 +1,7 @@
 :root {
     --main-text-color: rgba(118, 127, 110, 0.6);
     --main-bg-color: rgba(118, 127, 110, 0.3);
+    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 
 }
 
@@ -9,12 +10,18 @@ body {
 }
 
 h1 {
-    font-weight: 700;
+    font-weight: 500;
     color: var(--main-text-color);
     font-size: 70px;
 
 }
 
+h2 {
+    color: var(--main-text-color);
+    font-size: 45px;
+    font-weight: 400;
+
+}
 
 .header {
     position: relative;
@@ -89,4 +96,19 @@ span {
 
 .navigation-links a:hover {
     text-decoration: underline;
+}
+
+.primary-link {
+    padding: 20px 15px;
+    color: white;
+    background-color: var(--main-text-color);
+    text-decoration: none;
+    border-radius: 4px;
+    box-shadow: var(--box-shadow);
+    display: inline-flex;
+}
+
+.project-section {
+    margin-top: 130px;
+
 }
