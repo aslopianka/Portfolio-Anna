@@ -20,9 +20,9 @@ h1 {
     position: relative;
 }
 
-/* .headline {
-    margin-left: 200px;
-} */
+.headline {
+    margin-left: 135px;
+}
 
 .overlap-box {
     background-color: var(--main-bg-color);
@@ -58,14 +58,35 @@ h1 {
 
 }
 
-a {
+span {
+    padding-bottom: 180px;
+}
+
+.linkedIn-link {
     text-decoration: none;
     color: var(--main-text-color);
     z-index: 100;
     font-size: 18px;
-    padding-bottom: 180px;
 }
 
-a:hover {
+
+.linkedIn-link:hover {
     color: #FFFF;
+}
+
+.navigation-links {
+    flex-direction: row-reverse;
+    row-gap: 20px;
+    margin-top: 10px;
+
+}
+
+.navigation-links a {
+    text-decoration: none;
+    color: var(--main-text-color);
+    padding-right: 60px;
+}
+
+.navigation-links a:hover {
+    text-decoration: underline;
 }
