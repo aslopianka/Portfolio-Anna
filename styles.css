@@ -90,20 +90,17 @@ span {
 }
 
 .navigation-links {
-    flex-direction: row-reverse;
-    row-gap: 20px;
-    margin-top: 10px;
-
+    background-color: #FFFF;
 }
 
 .navigation-links a {
     text-decoration: none;
     color: var(--main-color);
-    padding-right: 60px;
 }
 
 .navigation-links a:hover {
     text-decoration: underline;
+    color: var(--main-color);
 }
 
 .primary-link {
