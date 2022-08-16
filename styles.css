@@ -132,8 +132,25 @@ span {
     width: 50%
 }
 
-.container-contact {
+.contact-section {
     margin-top: 70px;
+}
+
+.contact-box {
+    background-color: var(--main-bg-color);
+    border-radius: 4px;
+    width: 80%;
+    padding: 20px;
+    box-shadow: var(--box-shadow);
+}
+
+.contact-paragraph {
+    display: flex;
+
+}
+
+.contact-box {
+    width: 750px;
 }
 
 /* responsiveness */
