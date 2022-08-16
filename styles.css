@@ -50,6 +50,7 @@ h2 {
 }
 
 .green-box {
+    display: flex;
     justify-content: flex-end;
     background-color: var(--main-bg-color);
 
@@ -120,4 +121,53 @@ span {
 .about-section-spacing {
     margin-top: 100px;
 
+}
+
+/* responsiveness */
+
+@media (max-width: 1050px) {
+
+    h1 {
+        font-size: 45px;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    .header {
+        background-color: var(--main-bg-color);
+        width: 100%;
+        display: flex;
+        justify-content: left;
+    }
+
+    .green-box {
+        display: none;
+    }
+
+    .overlap-box {
+        display: none;
+    }
+
+    .about-paragraph {
+        display: none;
+    }
+
+    .linkedIn-link {
+        display: none;
+    }
+
+    .project-section-spacing {
+        margin-top: 70px;
+    }
+
+    .container {
+        text-align: center;
+    }
 }
