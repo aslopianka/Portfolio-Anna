@@ -56,7 +56,7 @@ h2 {
 
 }
 
-.about-paragraph {
+.about-paragraph1 {
 
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
@@ -123,6 +123,19 @@ span {
 
 }
 
+.about-section {
+    display: flex;
+    text-align: center;
+}
+
+.me {
+    width: 50%
+}
+
+.container-contact {
+    margin-top: 70px;
+}
+
 /* responsiveness */
 
 @media (max-width: 1050px) {
@@ -155,7 +168,7 @@ span {
         display: none;
     }
 
-    .about-paragraph {
+    .about-paragraph1 {
         display: none;
     }
 
