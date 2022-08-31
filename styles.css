@@ -26,7 +26,7 @@ h3 {
 h2 {
     text-align: center;
     color: var(--main-color);
-    font-size: 48px;
+    font-size: 45px;
     font-weight: 500;
 
 }
@@ -194,6 +194,11 @@ span {
         display: none;
     }
 
+    .about-paragraph2 {
+        width: 100%;
+        margin: 0;
+    }
+
     .linkedIn-link {
         display: none;
     }
@@ -204,5 +209,9 @@ span {
 
     .container {
         text-align: center;
+    }
+
+    .contact-paragraph {
+        width: 100%;
     }
 }
