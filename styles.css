@@ -136,7 +136,7 @@ span {
 
 .me {
     width: 80%;
-    margin-top: 8px
+
 }
 
 .contact-section {
@@ -151,12 +151,41 @@ span {
     box-shadow: var(--box-shadow);
 }
 
-.contact-paragraph {
-    display: flex;
-    width: 70%;
-    justify-content: center;
+.contact-paragraph p {
+    width: 50%;
+    text-align: center;
+}
+
+.visual-center {
+    margin-top: 10px;
+}
+
+.social-links a {
+    margin: 0 25px;
+    color: #212529;
+    background-color: var(--main-color);
+    border-radius: 50px;
+    padding: 10px 15px;
+    font-size: 18px;
+    transition: all 100ms ease-in-out;
 
 }
+
+.social-links a:hover {
+    background-color: var(--main-bg-color);
+}
+
+/* .email-link a {
+    color: #212529;
+    text-align: center;
+    text-decoration: none;
+}
+
+.email-link a:hover {
+    text-decoration: underline;
+    color: #212529; } */
+
+
 
 /* responsiveness */
 
@@ -197,6 +226,7 @@ span {
     .about-paragraph2 {
         width: 100%;
         margin: 0;
+        text-align: center;
     }
 
     .linkedIn-link {
