@@ -58,18 +58,23 @@ h2 {
 
 .about-paragraph1 {
 
-    font-size: 18px;
+    font-size: 25px;
     font-family: 'Poppins', sans-serif;
     width: 750px;
     padding-right: 200px;
+    padding-bottom: 80px;
     color: var(--main-color);
+}
+
+.about-paragraph2 {
+    width: 80%;
 }
 
 .header-spacing {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    margin-top: 130px;
+    margin-top: 200px;
 
 
 }
@@ -128,8 +133,10 @@ span {
     text-align: center;
 }
 
+
 .me {
-    width: 50%
+    width: 80%;
+    margin-top: 8px
 }
 
 .contact-section {
@@ -139,18 +146,16 @@ span {
 .contact-box {
     background-color: var(--main-bg-color);
     border-radius: 4px;
-    width: 80%;
+    /* width: 80%; */
     padding: 20px;
     box-shadow: var(--box-shadow);
 }
 
 .contact-paragraph {
     display: flex;
+    width: 70%;
+    justify-content: center;
 
-}
-
-.contact-box {
-    width: 750px;
 }
 
 /* responsiveness */
