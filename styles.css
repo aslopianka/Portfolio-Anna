@@ -1,178 +1,167 @@
 :root {
-    --main-color: rgba(118, 127, 110, 0.6);
-    --main-bg-color: rgba(118, 127, 110, 0.3);
-    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-
+  --main-color: rgba(118, 127, 110, 0.6);
+  --main-bg-color: rgba(118, 127, 110, 0.3);
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 h1 {
-    font-weight: 500;
-    color: var(--main-color);
-    font-size: 70px;
-
+  font-weight: 500;
+  color: var(--main-color);
+  font-size: 70px;
 }
 
 h3 {
-    color: var(--main-color);
-    font-size: 35px;
-    font-weight: 300;
-
+  color: var(--main-color);
+  font-size: 35px;
+  font-weight: 300;
 }
 
 h2 {
-    text-align: center;
-    color: var(--main-color);
-    font-size: 45px;
-    font-weight: 500;
-
+  text-align: center;
+  color: var(--main-color);
+  font-size: 45px;
+  font-weight: 500;
 }
 
 .header {
-    position: relative;
+  position: relative;
 }
 
 .headline {
-    margin-left: 135px;
+  margin-left: 135px;
 }
 
 .overlap-box {
-    background-color: var(--main-bg-color);
-    position: absolute;
-    width: 20%;
-    height: 100%;
-    z-index: -1;
-    right: 0;
-
+  background-color: var(--main-bg-color);
+  position: absolute;
+  width: 20%;
+  height: 100%;
+  z-index: -1;
+  right: 0;
 }
 
 .green-box {
-    display: flex;
-    justify-content: flex-end;
-    background-color: var(--main-bg-color);
-
+  display: flex;
+  justify-content: flex-end;
+  background-color: var(--main-bg-color);
 }
 
 .about-paragraph1 {
-
-    font-size: 25px;
-    font-family: 'Poppins', sans-serif;
-    width: 750px;
-    padding-right: 200px;
-    padding-bottom: 80px;
-    color: var(--main-color);
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  width: 750px;
+  padding-right: 200px;
+  padding-bottom: 80px;
+  color: var(--main-color);
 }
-
+.linked-in {
+  color: var(--main-color);
+  font-size: 18px;
+}
 .about-paragraph2 {
-    width: 80%;
+  width: 80%;
 }
 
 .header-spacing {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    margin-top: 200px;
-
-
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-top: 200px;
 }
 
 span {
-    padding-bottom: 180px;
+  padding-bottom: 180px;
 }
 
 .linkedIn-link {
-    text-decoration: none;
-    color: var(--main-color);
-    z-index: 100;
-    font-size: 18px;
+  text-decoration: underline;
+  color: var(--main-color);
+  z-index: 100;
+  font-size: 18px;
 }
 
-
 .linkedIn-link:hover {
-    color: #FFFF;
+  color: #ffff;
 }
 
 .navigation-links {
-    background-color: #FFFF;
+  background-color: #ffff;
 }
 
 .navigation-links a {
-    text-decoration: none;
-    color: var(--main-color);
+  text-decoration: none;
+  color: var(--main-color);
 }
 
 .navigation-links a:hover {
-    text-decoration: underline;
-    color: var(--main-color);
+  text-decoration: underline;
+  color: var(--main-color);
 }
 
 .primary-link {
-    padding: 20px 15px;
-    color: white;
-    background-color: var(--main-color);
-    text-decoration: none;
-    border-radius: 4px;
-    box-shadow: var(--box-shadow);
-    display: inline-flex;
+  padding: 20px 15px;
+  color: white;
+  background-color: var(--main-color);
+  text-decoration: none;
+  border-radius: 4px;
+  box-shadow: var(--box-shadow);
+  display: inline-flex;
 }
 
 .project-section-spacing {
-    margin-top: 250px
+  margin-top: 250px;
 }
 
 .about-section-spacing {
-    margin-top: 100px;
-
+  margin-top: 100px;
 }
 
 .about-section {
-    display: flex;
-    text-align: center;
+  display: flex;
+  text-align: center;
 }
 
-
 .me {
-    width: 80%;
-
+  width: 80%;
 }
 
 .contact-section {
-    margin-top: 70px;
+  margin-top: 70px;
 }
 
 .contact-box {
-    background-color: var(--main-bg-color);
-    border-radius: 4px;
-    /* width: 80%; */
-    padding: 20px;
-    box-shadow: var(--box-shadow);
+  background-color: var(--main-bg-color);
+  border-radius: 4px;
+  /* width: 80%; */
+  padding: 20px;
+  box-shadow: var(--box-shadow);
 }
 
 .contact-paragraph p {
-    width: 50%;
-    text-align: center;
+  width: 50%;
+  text-align: center;
 }
 
 .visual-center {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .social-links a {
-    margin: 0 25px;
-    color: #212529;
-    background-color: var(--main-color);
-    border-radius: 50px;
-    padding: 10px 15px;
-    font-size: 18px;
-    transition: all 100ms ease-in-out;
-
+  margin: 0 25px;
+  color: #212529;
+  background-color: var(--main-color);
+  border-radius: 50px;
+  padding: 10px 15px;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
 }
 
 .social-links a:hover {
-    background-color: var(--main-bg-color);
+  background-color: var(--main-bg-color);
 }
 
 /* .email-link a {
@@ -185,63 +174,60 @@ span {
     text-decoration: underline;
     color: #212529; } */
 
-
-
 /* responsiveness */
 
 @media (max-width: 1050px) {
+  h1 {
+    font-size: 45px;
+    text-align: center;
+  }
 
-    h1 {
-        font-size: 45px;
-        text-align: center;
-    }
+  h2 {
+    font-size: 40px;
+  }
 
-    h2 {
-        font-size: 40px;
-    }
+  h3 {
+    font-size: 30px;
+  }
 
-    h3 {
-        font-size: 30px;
-    }
+  .header {
+    background-color: var(--main-bg-color);
+    width: 100%;
+    display: flex;
+    justify-content: left;
+  }
 
-    .header {
-        background-color: var(--main-bg-color);
-        width: 100%;
-        display: flex;
-        justify-content: left;
-    }
+  .green-box {
+    display: none;
+  }
 
-    .green-box {
-        display: none;
-    }
+  .overlap-box {
+    display: none;
+  }
 
-    .overlap-box {
-        display: none;
-    }
+  .about-paragraph1 {
+    display: none;
+  }
 
-    .about-paragraph1 {
-        display: none;
-    }
+  .about-paragraph2 {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+  }
 
-    .about-paragraph2 {
-        width: 100%;
-        margin: 0;
-        text-align: center;
-    }
+  .linkedIn-link {
+    display: none;
+  }
 
-    .linkedIn-link {
-        display: none;
-    }
+  .project-section-spacing {
+    margin-top: 70px;
+  }
 
-    .project-section-spacing {
-        margin-top: 70px;
-    }
+  .container {
+    text-align: center;
+  }
 
-    .container {
-        text-align: center;
-    }
-
-    .contact-paragraph {
-        width: 100%;
-    }
+  .contact-paragraph {
+    width: 100%;
+  }
 }
